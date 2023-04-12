@@ -1,8 +1,5 @@
-APP_NAME=src/main
-
 run:
-	APP_NAME=src/main
-	flask --app ${APP_NAME} run -h 0.0.0.0 -p 80
+	python3 src/main.py
 
 require:
 	pip freeze > requirements.txt
